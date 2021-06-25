@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+form {
+  width: 400px;
+  text-align: center;
+  display: inline-block;
+}
+form > fieldset {
+  padding: 10px;
+}
+input {
+  height: 30px;
+  width: 100%;
+}
+table {
+  display: inline-block;
+}
+table,
+tr,
+td {
+  border-collapse: collapse;
+  text-indent: initial;
+  border-spacing: 0px;
+}
+td > button {
+  width: 30px;
+  height: 30px;
+}
+.subm {
+  background-color: transparent;
+  border: 2px solid rgb(24, 220, 255);
+  border-radius: 5px;
+  width: 64px;
+  height: 34px;
+  text-align: center;
+  color: rgb(24, 220, 255);
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.subm:hover {
+  border-color: teal;
+  color: teal;
+}
+.subm:active {
+  transform: scale(1.1);
+}
+.subm:disabled {
+    border: 1px solid rgb(177, 177, 177);
+    color: rgb(168, 168, 168);
+    background-color: rgb(248, 248, 248);
+}
+.activeA {
+  background-color: rgb(24, 220, 255);
+}
+.activeB {
+  background-color: rgb(255, 24, 93);
+}
+.notifyCation {
+    color:rgb(255, 24, 93)
+}
